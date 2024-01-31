@@ -1,0 +1,17 @@
+{
+    "structures": [
+      {
+        "structure": "biosphere:spheres",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 561107275,
+      "frequency": 1,
+      "spread_type": "linear",
+      "spacing": 4,
+      "separation": 2
+    }
+  }
+  
