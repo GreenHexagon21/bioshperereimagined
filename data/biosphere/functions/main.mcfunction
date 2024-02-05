@@ -6,4 +6,4 @@ execute as @e[name="47x47_sub_pro",sort=random,limit=1] at @s run function biosp
 execute as @e[name="33x33_sub_pro",sort=random,limit=1] at @s run function biosphere:probe/subsurface/33x33
 execute as @e[name="25x25_sub_pro",sort=random,limit=1] at @s run function biosphere:probe/subsurface/25x25
 execute as @e[name="17x17_sub_pro",sort=random,limit=1] at @s run function biosphere:probe/subsurface/17x17
-execute as @e[name="test",sort=random,limit=1] at @s positioned over motion_blocking_no_leaves run tp @s ~ ~ ~
+execute as @e[name="test",sort=random,limit=1] at @s positioned over ocean_floor in minecraft:overworld run tp @s ~ ~ ~
