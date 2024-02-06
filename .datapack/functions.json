@@ -1,1 +1,1 @@
-{"biosphere":{"utils":{"$func":["forceloadadd","forceloadadd"]},"$func":["init","ticker","tp_to_overworld_without_portal","tp_to_overworld","tp_to_limbo","main"],"probe":{"surface":{"$func":["47x47","33x33","25x25","17x17"]},"subsurface":{"$func":["47x47","33x33","25x25","17x17"]}}}}
+{"biosphere":{"utils":{"$func":["forceloadadd","forceloadadd"]},"$func":["init","ticker","tp_to_overworld_without_portal","tp_to_overworld","tp_to_limbo","main"],"probe":{"surface":{"$func":["47x47","33x33","25x25","17x17","17x17_ref"]},"subsurface":{"$func":["47x47","33x33","25x25","17x17"]}}}}
