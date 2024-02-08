@@ -1,0 +1,1 @@
+#execute at @s in minecraft:overworld run forceload remove ~1 ~1 ~-1 ~-1
