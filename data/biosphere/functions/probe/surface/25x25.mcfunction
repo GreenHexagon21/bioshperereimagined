@@ -1,5 +1,6 @@
 execute run function biosphere:utils/forceloadadd
 execute as @s at @s positioned over ocean_floor in minecraft:overworld run tp @s ~ ~ ~
+execute if block ~ ~-1 ~ #leaves as @s at @s positioned over motion_blocking_no_leaves in minecraft:overworld run tp @s ~ ~ ~
 execute at @s if dimension minecraft:overworld in minecraft:overworld run setblock ~-12 ~-13 ~-12 structure_block[mode=load]{name:"biosphere:25x25_negative",posX:0,posY:0,posZ:0,rotation:"NONE",mirror:"NONE",mode:"LOAD"} replace
 execute at @s if dimension minecraft:overworld in minecraft:overworld run setblock ~-12 ~-14 ~-12 redstone_block
 execute at @s if dimension minecraft:overworld in minecraft:overworld run fill ~-12 ~-13 ~-12 ~13 ~12 ~13 minecraft:structure_void replace minecraft:bedrock
