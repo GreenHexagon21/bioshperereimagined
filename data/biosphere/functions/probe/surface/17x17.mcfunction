@@ -8,4 +8,4 @@ execute at @s if dimension minecraft:overworld in minecraft:overworld run setblo
 execute at @s if dimension minecraft:overworld in minecraft:overworld run setblock ~-8 ~-11 ~-8 minecraft:redstone_block
 execute as @s run kill @s
 execute run function biosphere:utils/forceloadremove
-execute as @e[name="17x17_sur_ref",sort=random,limit=1] in biosphere:biosphere_dim at @s run function biosphere:probe/surface/17x17_ref
+execute as @e[name="17x17_sur_ref",sort=nearest,limit=1] in biosphere:biosphere_dim at @s run function biosphere:probe/surface/17x17_ref

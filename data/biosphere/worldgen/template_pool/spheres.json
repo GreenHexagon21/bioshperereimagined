@@ -1,24 +1,68 @@
 {
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 3,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "biosphere:33x33_subsurface",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 4,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "biosphere:33x33_surface",
-          "processors": "minecraft:empty"
-        }
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:17x17_surface",
+        "processors": "minecraft:empty"
       }
-    ]
-  }
-  
+    },
+    {
+      "weight": 11,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:17x17_subsurface",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:25x25_subsurface",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:25x25_surface",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:33x33_surface",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:47x47_subsurface",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:47x47_surface",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
