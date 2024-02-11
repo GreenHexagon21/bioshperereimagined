@@ -36,6 +36,15 @@
         "location": "biosphere:33x33_subsurface",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "biosphere:47x47_surface",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
