@@ -1,42 +1,7 @@
 {
   "fallback": "minecraft:empty",
   "elements": [
-    {
-      "weight": 7,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "biosphere:25_sub_ref",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 8,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "biosphere:25_sur_ref",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 5,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "biosphere:33_sub_ref",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "biosphere:33_sur_ref",
-        "processors": "minecraft:empty"
-      }
-    },
+
     {
       "weight": 1,
       "element": {
